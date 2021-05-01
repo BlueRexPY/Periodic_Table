@@ -1,0 +1,216 @@
+body{
+    background: #131313;
+    color: #fff;
+    overflow: hidden;
+}
+
+*{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    transform: scale(0.96);
+    
+    
+}
+
+main{
+    margin-left: 1%;
+    margin-top: 0px;
+    
+}
+table{
+    border-spacing: 8px;
+}
+.caption{
+    position:absolute;
+    text-shadow:0 0 4px #fff;
+    font-size: 2.5em;
+    left: 50%;
+    top: -2.5%;
+    transform: translate(-50%,-50%);
+}
+td{
+    padding: 0px 15px 5px 15px;
+    margin-right: 10px;  
+    transition: 0.3s;
+}
+td:hover{
+    transition: 0.3s;
+    transform: scale(1.3);
+}
+.green{
+    border: 1px solid #04BF9D;
+    box-shadow:0 0 5px #04BF9D;
+}
+.green h1{
+    color:#04BF9D; 
+    text-shadow:0 0 5px #04BF9D;
+}
+.green h6{
+    color:#04BF9D; 
+    text-shadow:0 0 5px #04BF9D;
+}
+.green p{
+    color:#04BF9D; 
+    text-shadow:0 0 5px #04BF9D;
+}
+
+.red{
+    border: 1px solid #D9042B;
+    box-shadow:0 0 5px #D9042B;
+}
+.red h1{
+    color:#D9042B; 
+    text-shadow:0 0 5px #D9042B;
+}
+.red h6{
+    color:#D9042B; 
+    text-shadow:0 0 5px #D9042B;
+}
+.red p{
+    color:#D9042B; 
+    text-shadow:0 0 5px #D9042B;
+}
+.pink{
+    border: 1px solid #E899F2;
+    box-shadow:0 0 5px #E899F2;
+}
+.pink h1{
+    color:#E899F2; 
+    text-shadow:0 0 5px #E899F2;
+}
+.pink h6{
+    color:#E899F2; 
+    text-shadow:0 0 5px #E899F2;
+}
+.pink p{
+    color:#E899F2; 
+    text-shadow:0 0 5px #E899F2;
+}
+.light_green{
+    border: 1px solid #44FCCF;
+    box-shadow:0 0 5px #44FCCF;
+}
+.light_green h1{
+    color:#44FCCF; 
+    text-shadow:0 0 5px #44FCCF;
+}
+.light_green h6{
+    color:#44FCCF; 
+    text-shadow:0 0 5px #44FCCF;
+}
+.light_green p{
+    color:#44FCCF; 
+    text-shadow:0 0 5px #44FCCF;
+}
+
+.dark{
+    border: 1px solid #757575;
+    box-shadow:0 0 5px #757575;
+}
+.dark h6{
+    color:#757575; 
+    text-shadow:0 0 5px #757575;
+}
+
+.blue{
+    border: 1px solid #05DBF2;
+    box-shadow:0 0 5px #05DBF2;
+}
+.blue h1{
+    color:#05DBF2; 
+    text-shadow:0 0 5px #05DBF2;
+}
+.blue h6{
+    color:#05DBF2; 
+    text-shadow:0 0 5px #05DBF2;
+}
+.blue p{
+    color:#05DBF2; 
+    text-shadow:0 0 5px #05DBF2;
+}
+
+.white{
+    border: 1px solid #fff;
+    box-shadow:0 0 5px #fff;
+}
+.white h1{
+    color:#fff; 
+    text-shadow:0 0 5px #fff;
+}
+.white h6{
+    color:#fff; 
+    text-shadow:0 0 5px #fff;
+}
+.white p{
+    color:#fff; 
+    text-shadow:0 0 5px #fff;
+}
+
+.purple{
+    border: 1px solid #9A41F2;
+    box-shadow:0 0 5px #9A41F2;
+}
+.purple h1{
+    color:#9A41F2; 
+    text-shadow:0 0 5px #9A41F2;
+}
+.purple h6{
+    color:#9A41F2; 
+    text-shadow:0 0 5px #9A41F2;
+}
+.purple p{
+    color:#9A41F2; 
+    text-shadow:0 0 5px #9A41F2;
+}
+
+.dark_blue{
+    border: 1px solid #402CBF;
+    box-shadow:0 0 5px #402CBF;
+}
+.dark_blue h1{
+    color:#402CBF; 
+    text-shadow:0 0 5px #402CBF;
+}
+.dark_blue h6{
+    color:#402CBF; 
+    text-shadow:0 0 5px #402CBF;
+}
+.dark_blue p{
+    color:#402CBF; 
+    text-shadow:0 0 5px #402CBF;
+}
+.yellow{
+    border: 1px solid #F2E635;
+    box-shadow:0 0 5px #F2E635;
+}
+.yellow h1{
+    color:#F2E635; 
+    text-shadow:0 0 5px #F2E635;
+}
+.yellow h6{
+    color:#F2E635; 
+    text-shadow:0 0 5px #F2E635;
+}
+.yellow p{
+    color:#F2E635; 
+    text-shadow:0 0 5px #F2E635;
+}
+.orange{
+    border: 1px solid #F24405;
+    box-shadow:0 0 5px #F24405;
+}
+.orange h1{
+    color:#F24405; 
+    text-shadow:0 0 5px #F24405;
+}
+.orange h6{
+    color:#F24405; 
+    text-shadow:0 0 5px #F24405;
+}
+.orange p{
+    color:#F24405; 
+    text-shadow:0 0 5px #F24405;
+}
