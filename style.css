@@ -2,6 +2,8 @@ body{
     background: #131313;
     color: #fff;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 *{
@@ -11,26 +13,17 @@ body{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     transform: scale(0.96);
-    
-    
 }
 
 main{
     margin-left: 1%;
-    margin-top: 0px;
-    
 }
+
 table{
     border-spacing: 8px;
+    animation: anime 1s ;
 }
-.caption{
-    position:absolute;
-    text-shadow:0 0 4px #fff;
-    font-size: 2.5em;
-    left: 50%;
-    top: -2.5%;
-    transform: translate(-50%,-50%);
-}
+
 td{
     padding: 0px 15px 5px 15px;
     margin-right: 10px;  
@@ -213,4 +206,54 @@ td:hover{
 .orange p{
     color:#F24405; 
     text-shadow:0 0 5px #F24405;
+}
+
+svg{
+    width: 500px;
+    position:absolute;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%,-50%);
+    
+}
+path{
+    stroke: #fff;
+    fill: #fff;
+    stroke-dasharray: 1800;
+    opacity: 10;
+    animation: animate 1s cubic-bezier(0,0.23,1,.1);
+}
+@keyframes animate{
+    0%{
+        opacity: 10;
+        fill: none;
+        stroke-dashoffset: 1800;
+    }
+
+    20%{
+        opacity: 10;
+        fill: none;
+        stroke-dashoffset: 1800;
+        
+    }
+    90%{
+        fill: rgba(255, 255, 255, 0);
+    }
+    100%{
+        opacity: 10;
+        fill: rgba(255, 255, 255,1);
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes anime{
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
